@@ -1,53 +1,71 @@
-Listado de Pokemons
-Atributos: listado de cada uno de los pokemons, listado de la cantidad, id, nombre, especial, altura, valor ataque, valor defensa, color, habilidades: [una o mas de una], id_habilidad, nombre. Tipos de pokemon, id tipo.  mas daño a qué pokemon. Pokemon puede ser de agua, id, nombre del tipo. movimientos especiales de pokemon [daño, tipo]
+//#### Rubén Velasco ######
+//######### ADSO ##########
+//###### 14-08-2023 #######
 
-{ 
-  "nombre": "Listado de Pokemons",
-  "cantidadTotal": "1010",
-  "atrapados":{
-		"id": "0001",
-		"nombre": "Charmander"
-		"especial": false,
-		"altura": "1,50",
-		"ataque": "52",
-		"defensa": "43",
-		"color": "Naranja",
-		"habilidades":{
-			"id_Habilidad": "",
- 			"nombre_habilidad": "",	
+//istado de Pokemons
+
+/*tributos: listado de cada uno de los pokemons, listado de la cantidad, id, nombre, especial, altura, valor ataque, valor defensa, color, habilidades: [una o mas de una], id_habilidad, nombre. Tipos de pokemon, id tipo.  mas daño a qué pokemon. Pokemon puede ser de agua, id, nombre del tipo. movimientos especiales de pokemon [daño, tipo]*/
+
+{
+	"nombre": "Listado de Pokemons",
+	"cantidadTotal": "1010",
+	"atrapados": [{
+			"id": "0001",
+			"nombre": "Charmander",
+			"especial": false,
+			"altura": "0,6 m",
+			"ataque": "52",
+			"defensa": "43",
+			"color": "Rojo",
+			"habilidades": [{
+				"id_Habilidad": "1",
+				"nombre_habilidad": "Mar llamas"
+			}, {
+				"id_Habilidad": "2",
+				"nombre_habilidad": "Poder solar"
+			}],
+			"tipo_pokemon": [{
+				"id_Tipo": "1",
+				"nombre_Tipo": "Fuego"
+			}],
+			"daño_a_pokemon_especifico": "Agua",
+			"movimientos_especiales": [{
+				"id_Movimiento": "01",
+				"nombre_Movimiento": "Arañazo Scratch"
+			}, {
+				"id_Movimiento": "02",
+				"nombre_Movimiento": "Ascuas Ember"
+			}]
 		},
-		"tipo_pokemon":{
-			"id_Tipo": "",
-			"nombre_Tipo": "",
-		},	
-		"daño_a_pokemon_especifico": "",
-		"movimientos_especiales":{
-			"id_Movimiento": "",
-			"nombre_Movimiento": "",
-		}	
-	}, 
-	      {
-		"id": "0002",
-		"nombre": "Pikachu"
-		"especial": true,
-		"altura": "1,55",
-		"ataque": "80",
-		"defensa": "50",
-		"color": "Amarillo",
-		"habilidades":{
-			"id_Habilidad": "",
- 			"nombre_habilidad": "",	
-		},
-		"tipo_pokemon":{
-			"id_Tipo": "",
-			"nombre_Tipo": "",
-		},	
-		"daño_a_pokemon_especifico": "",
-		"movimientos_especiales":{
-			"id_Movimiento": "",
-			"nombre_Movimiento": "",
-		}	
-	},			
+		{
+			"id": "0002",
+			"nombre": "Pikachu",
+			"especial": true,
+			"altura": "0,4 m",
+			"ataque": "80",
+			"defensa": "50",
+			"color": "Amarillo",
+			"habilidades": [{
+				"id_Habilidad": "1",
+				"nombre_habilidad": "Eletricidad estática"
+			}, {
+				"id_Habilidad": "2",
+				"nombre_habilidad": "Pararrayos"
+			}],
+			"tipo_pokemon": [{
+				"id_Tipo": "1",
+				"nombre_Tipo": "Electrnico"
+			}],
+			"daño_a_pokemon_especifico": "Agua",
+			"movimientos_especiales": [{
+				"id_Movimiento": "01",
+				"nombre_Movimiento": "Voltio Cruel"
+			}, {
+				"id_Movimiento": "02",
+				"nombre_Movimiento": "Moflete Estático"
+			}]
+		}
+	]
 
 
 }
