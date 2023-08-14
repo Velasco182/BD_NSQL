@@ -1,0 +1,53 @@
+Listado de Pokemons
+Atributos: listado de cada uno de los pokemons, listado de la cantidad, id, nombre, especial, altura, valor ataque, valor defensa, color, habilidades: [una o mas de una], id_habilidad, nombre. Tipos de pokemon, id tipo.  mas daño a qué pokemon. Pokemon puede ser de agua, id, nombre del tipo. movimientos especiales de pokemon [daño, tipo]
+
+{ 
+  "nombre": "Listado de Pokemons",
+  "cantidadTotal": "1010",
+  "atrapados":{
+		"id": "0001",
+		"nombre": "Charmander"
+		"especial": false,
+		"altura": "1,50",
+		"ataque": "52",
+		"defensa": "43",
+		"color": "Naranja",
+		"habilidades":{
+			"id_Habilidad": "",
+ 			"nombre_habilidad": "",	
+		},
+		"tipo_pokemon":{
+			"id_Tipo": "",
+			"nombre_Tipo": "",
+		},	
+		"daño_a_pokemon_especifico": "",
+		"movimientos_especiales":{
+			"id_Movimiento": "",
+			"nombre_Movimiento": "",
+		}	
+	}, 
+	      {
+		"id": "0002",
+		"nombre": "Pikachu"
+		"especial": true,
+		"altura": "1,55",
+		"ataque": "80",
+		"defensa": "50",
+		"color": "Amarillo",
+		"habilidades":{
+			"id_Habilidad": "",
+ 			"nombre_habilidad": "",	
+		},
+		"tipo_pokemon":{
+			"id_Tipo": "",
+			"nombre_Tipo": "",
+		},	
+		"daño_a_pokemon_especifico": "",
+		"movimientos_especiales":{
+			"id_Movimiento": "",
+			"nombre_Movimiento": "",
+		}	
+	},			
+
+
+}
