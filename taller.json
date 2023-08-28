@@ -1,0 +1,108 @@
+libros = [{
+  "nombre": "Aprenda PHP",
+  "autor": "Mario Molina",
+  "editoriales": ["Planeta"]
+},
+
+{
+  "nombre": "Java en 10 minutos",
+  "autor": "Barros Sergio",
+  "editoriales": ["Planeta", "Siglo XXI"]
+},
+
+{
+  "nombre": "Dummies Android",
+  "autor": "Julián Lujan",
+  "editoriales": ["Planeta", "Siglo XXI"]
+},
+
+{
+  "nombre": "Uml",
+  "autor": "Gosh",
+  "editoriales": ["Planeta"]
+},
+
+{
+  "nombre": "Java",
+  "autor": "Joyanes",
+  "editoriales": ["Planeta"]
+},
+
+{
+  "nombre": "Satanas",
+  "autor": "Mendoza",
+  "editoriales": ["Planeta"]
+},
+
+{
+  "nombre": "Introducción a la Programación",
+  "autor": "Ana Sánchez",
+  "editoriales": ["Editorial X", "Libros ABC"]
+},
+
+{
+  "nombre": "Data Science para Principiantes",
+  "autor": "Carlos Gómez",
+  "editoriales": ["Ediciones Data", "Libros Inteligentes"]
+},
+
+{
+  "nombre": "Clean Code: A Handbook of Agile Software Craftsmanship",
+  "autor": "Robert C. Martin",
+  "editoriales": ["Prentice Hall"]
+}]
+
+ciudades = [{
+  "nombre": "Cali",
+  "codigo": "ABC123"
+}
+,
+{
+  "nombre": "Bogotá",
+  "codigo": "DEF456"
+}
+,
+{
+  "nombre": "Popayán",
+  "codigo": "GHI789"
+}]
+
+peliculas = [{
+	"title": "Fight Club",
+	"writer": "Chuck Palahniuk",
+	"year": "1999",
+	"sinopsis": "Lucha",
+	"actors": ["Brad Pitt", "Edward Norton"]
+}, {
+	"title": "Pulp Fiction",
+	"writer": "Quentin Tarantino",
+	"year": "1994",
+	"sinopsis": "Lucha",
+	"actors": ["John Travolta", "Uma Thurman"]
+}, {
+	"title": "Inglorious Basterds",
+	"writer": "Quentin Tarantino",
+	"year": "2009",
+	"sinopsis": "Lucha",
+	"actors": ["Brad Pitt", "Diane Kruger", "Eli Roth"]
+}, {
+	"title": "The Hobbit: An Unexpected Journey",
+	"writer": "J.R.R. Tolkein",
+	"year": "2012",
+	"sinopsis": "Lucha",
+	"franchise": "The Hobbit"
+}, {
+	"title": "The Hobbit: The Desolation of Smaug",
+	"writer": "J.R.R. Tolkein",
+	"year": "2013",
+	"sinopsis": "Lucha",
+	"franchise": "The Hobbit"
+}, {
+	"title": "The Hobbit: The Battle of the Five Armies",
+	"writer": "J.R.R. Tolkein",
+	"year": "2012",
+	"franchise": "The Hobbit",
+	"synopsis": "Bilbo and Company are forced to engage in a war against an array of combatants and keep the Lonely Mountain from falling into the hands of a rising darkness."
+}]
+
+
