@@ -1,0 +1,6 @@
+ataque entre 45 y 56 y defensa mayor a 45
+
+db.pokemon.find({"stats.Ataque":{$gte:45, $lte:56}})
+db.pokemon.find({$and:[{"stats.Ataque":{$gte:45, $lte:56}},{"stats.Defensa":{$gte:45}}]}).pretty()
+
+{"producto":"Producto A", "total": 100})
