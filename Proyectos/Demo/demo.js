@@ -1,3 +1,6 @@
+// import { peliculas } from "../../db_movies.movies";
+const ejemplos = {name: 'Messi', name: 'CR7 el chivo'};
+
 const {MongoClient} = require("mongodb");
 console.log('Linea 2');
 
@@ -11,7 +14,9 @@ async function main(){
 
         await client.connect();
         console.log('Linea 11');
-        listar(client);
+        await listar(client);
+        await crear(client, ejemplos);
+        await mostrar(client);
 
     } catch (error) {
 
@@ -27,7 +32,34 @@ async function main(){
 
 async function listar(client){
 
-    const dbList =  await client.db().admin().listar();
-    console.log(`Lista de bases de datos: ${JSON.stringify(dbList)}`);
+    const dbList =  await client.db().admin().listDatabases();
+    // console.log(`Lista de bases de datos: ${JSON.stringify(dbList)}`);
+    dbList.databases.forEach(element => {
+        console.log(`Lista de bases de datos:`, element);
+    });
+    // dbList.databases.forEach(element => {
+    //     console.log(`Lista de bases de datos:`, element);
+    // });
+    
+
+}
+
+async function crear(client, nuevo){
+
+    const crear = await client.db('prueba').collection('ejemplos').insertOne(nuevo);
+    console.log(crear);
+
+}
+
+async function mostrar(client){
+
+        // Realiza una consulta para listar los documentos en la colección
+        const mostrarDatos = await client.db("prueba").collection("peliculas").find().toArray();
+    
+        // Imprime los documentos en la consola
+        console.log('Documentos en la colección:');
+        console.log(mostrarDatos);
+
+    ///https://vuejs.org/
 
 }
