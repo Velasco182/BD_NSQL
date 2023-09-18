@@ -54,12 +54,20 @@ async function crear(client, nuevo){
 async function mostrar(client){
 
         // Realiza una consulta para listar los documentos en la colección
-        const mostrarDatos = await client.db("prueba").collection("peliculas").find().toArray();
+        const mostrar = await client.db("prueba").collection("peliculas").find().toArray();
     
         // Imprime los documentos en la consola
         console.log('Documentos en la colección:');
-        console.log(mostrarDatos);
+        console.log(mostrar);
+
+    ///Postman
 
     ///https://vuejs.org/
+    ////npm create vue@latest
+    ////npm install
+    ///npm run dev
+    ///http://localhost:5173/
 
+    ///Paquete para consumir apis
+    ///npm install axios
 }
